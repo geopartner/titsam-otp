@@ -12,6 +12,7 @@ I router-config.json er følgende default værdier sat:
 - "walkSpeed" gang hastighed i m/s. Default = 1.3m/s  ~ 4.7km/t
 - "minTransferTime" mindste tid i sekunder mellem forskellige ture. Default = 60s
 - "walkBoardCost" antal sekunder der tillægges ved skift. Default = 120s
+- "offRoadDistanceMeters" hvor langt udenfor vej/sti må isokronen være, default = 150 m
 
 
 
