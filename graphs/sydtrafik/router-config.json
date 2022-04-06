@@ -8,6 +8,8 @@
 		"walkSpeed": 1.3,
 		"maxWalkDistance": 500,
 		"minTransferTime": 60,
-		"walkBoardCost": 120
+		"walkBoardCost": 120,
+		"precisionMeters": 100,
+		"offRoadDistanceMeters": 75
     }
 }

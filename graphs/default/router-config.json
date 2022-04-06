@@ -1,0 +1,15 @@
+// router-config.json
+{
+    // Routing defaults are any public field or setter in the Java class
+    // org.opentripplanner.routing.core.RoutingRequest
+    "routingDefaults": {
+        "maxTransfers": 5,
+        "walkReluctance": 2.0,
+		"walkSpeed": 1.3,
+		"maxWalkDistance": 500,
+		"minTransferTime": 60,
+		"walkBoardCost": 120,
+		"precisionMeters": 100,
+		"offRoadDistanceMeters": 75
+    }
+}
