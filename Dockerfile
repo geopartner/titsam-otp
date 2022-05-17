@@ -13,4 +13,4 @@ RUN java -Xmx8G -jar otp-1.5.0-shaded.jar --build ./graphs/sydtrafik
 
 EXPOSE 8888
 
-CMD ["java", "-Xmx8G", "-jar", "otp-1.5.0-shaded.jar", "--build", "--router", "nt",  "--router", "midttrafik", "--router", "sydtrafik","--graphs", "./graphs", "--port", "8888", "--inMemory"]
+CMD ["java", "-Xmx8G", "-jar", "otp-1.5.0-shaded.jar", "--router", "default", "--router", "nt",  "--router", "midttrafik", "--router", "sydtrafik","--graphs", "./graphs", "--port", "8888"]
